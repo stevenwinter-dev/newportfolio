@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steven Winter | Web Developer</title>
+    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css' />
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.2.1/dist/smooth-scroll.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class='header-container'>
+            <header>
+                <div class='nav-container'>
+                    <div class='icon-container'>
+                        <a href='#'>
+                            <img src='logo-white.png'>
+                        </a>
+                        <h1>Steven Winter</h1>
+                    </div>
+                    <nav>
+                        <ul class='nav-ul'>
+                            <li><a href='#'>Home</a></li>
+                            <li><a href='#projects'>Projects</a></li>
+                            <li><a href='#about'>About</a></li>
+                            <li><a href='#contact'>Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class='welcome'>
+                    <h2 data-aos="fade-right" data-aos-duration='1000'>Hey, thanks for dropping by!</h2>
+                    <p data-aos="fade-left" data-aos-duration='1000'>Feel free to check out my recent work and get in touch.</p>
+                    <div class='button-container'>
+                        <button data-aos="fade-in" data-aos-duration='2000' class='btn' ><a href='#projects'>Projects</a></button>
+                        <button data-aos="fade-in" data-aos-duration='2000' class='btn' >Contact</button>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section id='projects'>
+                    <h2 data-aos="fade-down" data-aos-duration='800'>Recent Work</h2>
+                    <div class='project-container'>
+                        <div class="project" data-aos="zoom-in" data-aos-duration='800'>
+                            <h3>Project 1</h3>
+                            <img src='best buy.png'>
+                            <div class='project-tech-tags'>
+                                <p>HTML</p>
+                                <p>CSS</p>
+                                <p>REACT</p>
+                            </div>
+                            <p class='project-description'>This application pulls the top 10 daily laptop sales from Best Buy's api and displays them in an efficient layout.</p>
+                            <div class="project-buttons">
+                                <button class='btn'>Live</button>
+                                <button class='btn'>Code</button>
+                            </div>
+                        </div>
+                        <div class="project" data-aos="zoom-in" data-aos-duration='800'>
+                            <h3>Project 2</h3>
+                        </div>
+                        <div class="project" data-aos="zoom-in" data-aos-duration='800'>
+                            <h3>Project 1</h3>
+                            <img>
+                            <div>
+                                <icon></icon>
+                            </div>
+                            <p>Description</p>
+                        </div>
+                        <div class="project" data-aos="zoom-in" data-aos-duration='800'>
+                            <h3>Project 2</h3>
+                        </div>
+                    </div>
+                </section>
+                <section class='about'>
+                    <div id='about' class='about-container'>
+                        <h2 data-aos="fade-down" data-aos-duration='800'>About me</h2>
+                        <p data-aos="fade-in" data-aos-duration='1000'>I've been a web developer for 3 years, currently residing in Houston, Texas. I really enjoy building robust, elegant web applications with the MERN stack.</p>
+                        <p data-aos="fade-in" data-aos-duration='1000'>I have a passion for learning new skills and am eager to master new technologies.</p>
+                        <p data-aos="fade-in" data-aos-duration='1000'>Currently, I am open to joining a team of talented developers. I am confident I will be an asset from day one.</p>
+                    </div>
+                </section>
+                <section class='technologies'>
+                    <h2 data-aos="fade-down" data-aos-duration='800'>Some Technologies I've Worked With</h2>
+                    <div class='technologies-container'>
+                        <i class="fab fa-html5" data-aos="fade-in" data-aos-duration='1000'></i>
+                        <i class="fab fa-css3-alt" data-aos="fade-in" data-aos-duration='1000'></i>
+                        <i class="fab fa-js" data-aos="fade-in" data-aos-duration='1000'></i>
+                        <i class="fab fa-react" data-aos="fade-in" data-aos-duration='1000'></i>
+                        <i class="fab fa-node" data-aos="fade-in" data-aos-duration='1000'></i>
+                        <img src='expressjs-ar21.svg' data-aos="fade-in" data-aos-duration='1000'></img>
+                        <img src='mongodb.svg' data-aos="fade-in" data-aos-duration='1000'></img>
+                        <i class="fab fa-sass" data-aos="fade-in" data-aos-duration='1000'></i>
+                        <i class="fab fa-php" data-aos="fade-in" data-aos-duration='1000'></i>
+                        <i class="fab fa-drupal" data-aos="fade-in" data-aos-duration='1000'></i>
+                        <i class="fab fa-git" data-aos="fade-in" data-aos-duration='1000'></i>
+                        <img src='jquery.svg' data-aos="fade-in" data-aos-duration='1000'></img>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <div class='contact-container'>
+                    <h2 data-aos="fade-down" data-aos-duration='800'>Get In Touch</h2>
+                    <form id='contact'>
+                        <input type='text' name='name' placeholder="Your name" required data-aos="fade-in" data-aos-duration='2000'>
+                        <input type='email' name='email' placeholder="Your email" required data-aos="fade-in" data-aos-duration='2000'>
+                        <textarea type='text' name='message' placeholder="Your message" required data-aos="fade-in" data-aos-duration='2000'></textarea>
+                        <button class='btn' data-aos="fade-in" data-aos-duration='2000'>Submit</button>
+                    </form>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+</html>
