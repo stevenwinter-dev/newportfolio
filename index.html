@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steven Winter | Web Developer</title>
-    <link rel="icon" type="image/png" href="favicon.ico"/>
+    <link rel="icon" type="image/ico" href="favicon.ico"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css' />
@@ -35,8 +35,10 @@
                     <h2 data-aos="fade-right" data-aos-duration='1000'>Hey, thanks for dropping by!</h2>
                     <p data-aos="fade-left" data-aos-duration='1000'>Feel free to check out my recent work and get in touch.</p>
                     <div class='button-container'>
-                        <button data-aos="fade-in" data-aos-duration='2000' class='btn' ><a href='#projects'>Projects</a></button>
-                        <button data-aos="fade-in" data-aos-duration='2000' class='btn' >Contact</button>
+                        <div data-aos="fade-in" data-aos-duration='2000'>
+                            <button class='btn'><a href='#projects'>Projects</a></button>
+                            <button class='btn'><a href='#contact'>Contact</a></button>
+                        </div>
                     </div>
                 </div>
             </header>
@@ -45,32 +47,62 @@
                     <h2 data-aos="fade-down" data-aos-duration='800'>Recent Work</h2>
                     <div class='project-container'>
                         <div class="project" data-aos="zoom-in" data-aos-duration='800'>
-                            <h3>Project 1</h3>
-                            <img src='best buy.png'>
-                            <div class='project-tech-tags'>
-                                <p>HTML</p>
-                                <p>CSS</p>
-                                <p>REACT</p>
-                            </div>
+                            <h3>G5 Gaming</h3>
+                            <img src='g5gaming.png'>
+                                <ul class="project-tech-ul">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>REACT</li>
+                                    <li>NODE</li>
+                                    <li>EXPRESS</li>
+                                    <li>MONGODB</li>
+                                </ul>
                             <p class='project-description'>This application pulls the top 10 daily laptop sales from Best Buy's api and displays them in an efficient layout.</p>
                             <div class="project-buttons">
-                                <button class='btn'>Live</button>
-                                <button class='btn'>Code</button>
+                                <button class='btn'><a href='https://g5gaming.herokuapp.com/' target="_blank">LIVE</a></button>
+                                <button class='btn'><a href='https://github.com/stevenwinter-dev/g5gaming' target="_blank">CODE</a></button>
                             </div>
                         </div>
                         <div class="project" data-aos="zoom-in" data-aos-duration='800'>
-                            <h3>Project 2</h3>
-                        </div>
-                        <div class="project" data-aos="zoom-in" data-aos-duration='800'>
-                            <h3>Project 1</h3>
-                            <img>
-                            <div>
-                                <icon></icon>
+                            <h3>Best Buy Laptop Sales</h3>
+                            <img src='bestbuypic.png'>
+                            <ul class="project-tech-ul">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>REACT</li>
+                            </ul>
+                            <p class='project-description'>This application pulls the top 10 daily laptop sales from Best Buy's api and displays them in an efficient layout.</p>
+                            <div class="project-buttons">
+                                <button class='btn'><a href='https://frosty-kalam-d097eb.netlify.app/' target="_blank">LIVE</a></button>
+                                <button class='btn'><a href='https://github.com/stevenwinter-dev/bblaptopsales' target="_blank">CODE</a></button>
                             </div>
-                            <p>Description</p>
                         </div>
                         <div class="project" data-aos="zoom-in" data-aos-duration='800'>
-                            <h3>Project 2</h3>
+                            <h3>Find Your AAF Team</h3>
+                            <img src='aaf.png'>
+                            <ul class="project-tech-ul">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>REACT</li>
+                            </ul>
+                            <p class='project-description'>This application pulls the top 10 daily laptop sales from Best Buy's api and displays them in an efficient layout.</p>
+                            <div class="project-buttons">
+                                <button class='btn'><a href='https://findyouraafteam.com/' target="_blank">LIVE</a></button>
+                                <button class='btn'><a href='https://github.com/stevenwinter-dev/which-AAF' target="_blank">CODE</a></button>
+                            </div>
+                        </div>
+                        <div class="project" data-aos="zoom-in" data-aos-duration='800'>
+                            <h3>Portfolio</h3>
+                            <img src='portfolio.png'>
+                            <ul class="project-tech-ul">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                            <p class='project-description'>This application pulls the top 10 daily laptop sales from Best Buy's api and displays them in an efficient layout.</p>
+                            <div class="project-buttons">
+                                <button class='btn'><a href='https://stevenwinter.dev' target="_blank">LIVE</a></button>
+                                <button class='btn'><a href='https://github.com/stevenwinter-dev/newportfolio' target="_blank">CODE</a></button>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -107,7 +139,9 @@
                         <input type='text' name='name' placeholder="Your name" required data-aos="fade-in" data-aos-duration='2000'>
                         <input type='email' name='email' placeholder="Your email" required data-aos="fade-in" data-aos-duration='2000'>
                         <textarea type='text' name='message' placeholder="Your message" required data-aos="fade-in" data-aos-duration='2000'></textarea>
-                        <button class='btn' data-aos="fade-in" data-aos-duration='2000'>Submit</button>
+                        <div data-aos="fade-in" data-aos-duration='2000'>
+                            <button class='btn'>Submit</button>
+                        </div>
                     </form>
                 </div>
             </footer>
