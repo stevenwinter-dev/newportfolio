@@ -198,7 +198,7 @@ section {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    height: 550px;
+    height: 650px;
     width: 40%;
     border-radius: 20px;
     margin-bottom: 5rem;
@@ -238,14 +238,19 @@ section {
     font-size: 1rem;
 }
 
-
 .project-tech-ul li {
     margin: 0 1rem 0 1rem;
 }
 
-.project-description{
+.project-description, .project-description2{
     margin: 1rem;
     margin-top: 2rem;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.project-description2 {
+    margin-top: 1rem;
 }
 
 .project-buttons {
@@ -330,8 +335,12 @@ section {
 }
 
 .technologies img {
-    width: 8rem;
+    width: 10rem;
     margin-right: 2rem;
+}
+
+.technologies img:last-of-type {
+    width: 5rem;
 }
 
 footer {
@@ -374,6 +383,7 @@ background-size: cover;
 
 .contact-container {
     text-align: center;  
+
 }
 
 .contact-container h2 {
@@ -409,4 +419,14 @@ input, textarea {
     margin-bottom: 1rem;
     border: none;
     border-bottom: 2px solid #E43F5A;
+}
+
+.alert {
+    text-align: center;
+    padding: 1rem;
+    background: #79C879;
+    color: white;
+    margin: auto;
+    width: 500px;
+    display: none;
 }

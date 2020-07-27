@@ -53,11 +53,12 @@
                                     <li>HTML</li>
                                     <li>CSS</li>
                                     <li>REACT</li>
+                                    <li>REDUX</li>
                                     <li>NODE</li>
                                     <li>EXPRESS</li>
                                     <li>MONGODB</li>
                                 </ul>
-                            <p class='project-description'>This application pulls the top 10 daily laptop sales from Best Buy's api and displays them in an efficient layout.</p>
+                            <p class='project-description'>This fullstack eCommerce application allows a user to register an account and purchase items. Admin functionality allows the addition or deletion of items and monitoring of all orders. User, item, and order information is stored with MongoDB Atlas. Images are hosted in an Amazon S3 bucket.</p>
                             <div class="project-buttons">
                                 <button class='btn'><a href='https://g5gaming.herokuapp.com/' target="_blank">LIVE</a></button>
                                 <button class='btn'><a href='https://github.com/stevenwinter-dev/g5gaming' target="_blank">CODE</a></button>
@@ -71,7 +72,7 @@
                                 <li>CSS</li>
                                 <li>REACT</li>
                             </ul>
-                            <p class='project-description'>This application pulls the top 10 daily laptop sales from Best Buy's api and displays them in an efficient layout.</p>
+                            <p class='project-description'>This application displays the top 10 daily laptop sales from Best Buy. Leveraging the Best Buy API provides users with accurate, up-to-date results. This project, as is true with all of my work, is responsive and designed to be an effortless mobile experience for the user. </p>
                             <div class="project-buttons">
                                 <button class='btn'><a href='https://frosty-kalam-d097eb.netlify.app/' target="_blank">LIVE</a></button>
                                 <button class='btn'><a href='https://github.com/stevenwinter-dev/bblaptopsales' target="_blank">CODE</a></button>
@@ -85,7 +86,7 @@
                                 <li>CSS</li>
                                 <li>REACT</li>
                             </ul>
-                            <p class='project-description'>This application pulls the top 10 daily laptop sales from Best Buy's api and displays them in an efficient layout.</p>
+                            <p class='project-description'>This application accepts user input and displays a result based on that input. </p><p class='project-description2'>In the early days of the now defunct AAF, many fans were wondering which team to support. This app solves that problem with a fast, light-weight solution.</p>
                             <div class="project-buttons">
                                 <button class='btn'><a href='https://findyouraafteam.com/' target="_blank">LIVE</a></button>
                                 <button class='btn'><a href='https://github.com/stevenwinter-dev/which-AAF' target="_blank">CODE</a></button>
@@ -97,8 +98,10 @@
                             <ul class="project-tech-ul">
                                 <li>HTML</li>
                                 <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Firebase</li>
                             </ul>
-                            <p class='project-description'>This application pulls the top 10 daily laptop sales from Best Buy's api and displays them in an efficient layout.</p>
+                            <p class='project-description'>The goal of this portfolio is to display my most recent work using a clean and efficient layout. Recognizing that most visitors are primarily interested in viewing my projects and code, I made displaying those the priority of this site.  </p>
                             <div class="project-buttons">
                                 <button class='btn'><a href='https://stevenwinter.dev' target="_blank">LIVE</a></button>
                                 <button class='btn'><a href='https://github.com/stevenwinter-dev/newportfolio' target="_blank">CODE</a></button>
@@ -129,18 +132,20 @@
                         <i class="fab fa-drupal" data-aos="fade-in" data-aos-duration='1000'></i>
                         <i class="fab fa-git" data-aos="fade-in" data-aos-duration='1000'></i>
                         <img src='jquery.svg' data-aos="fade-in" data-aos-duration='1000'></img>
+                        <img src='redux.png' data-aos="fade-in" data-aos-duration='1000'></img>
                     </div>
                 </section>
             </main>
             <footer>
                 <div class='contact-container'>
+                    <div class='alert'>Your message has been sent</div>
                     <h2 data-aos="fade-down" data-aos-duration='800'>Get In Touch</h2>
                     <form id='contact'>
-                        <input type='text' name='name' placeholder="Your name" required data-aos="fade-in" data-aos-duration='2000'>
-                        <input type='email' name='email' placeholder="Your email" required data-aos="fade-in" data-aos-duration='2000'>
-                        <textarea type='text' name='message' placeholder="Your message" required data-aos="fade-in" data-aos-duration='2000'></textarea>
+                        <input type='text' name='name' id='name' placeholder="Your name" required data-aos="fade-in" data-aos-duration='2000'>
+                        <input type='email' name='email' id='email' placeholder="Your email" required data-aos="fade-in" data-aos-duration='2000'>
+                        <textarea type='text' name='message' id='message' placeholder="Your message" required data-aos="fade-in" data-aos-duration='2000'></textarea>
                         <div data-aos="fade-in" data-aos-duration='2000'>
-                            <button class='btn'>Submit</button>
+                            <button type='submit' class='btn'>Submit</button>
                         </div>
                     </form>
                 </div>
@@ -152,7 +157,12 @@
     AOS.init();
   </script>
   <script>
-	var scroll = new SmoothScroll('a[href*="#"]');
+	const scroll = new SmoothScroll('a[href*="#"]');
 </script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+
+<script src='main.js'></script>
 </body>
 </html>
