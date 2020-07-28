@@ -53,6 +53,10 @@ header h1 {
     margin: auto;
 }
 
+.mobile-nav {
+    display: none;
+}
+
 .nav-ul {
     display: flex;
     justify-content: center;
@@ -511,10 +515,51 @@ input, textarea {
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 645px) {
     .nav-ul {
         display: none;
     } 
+    .mobile-nav {
+        display: block;
+    }
+    .mobile-nav{
+        display: flex;
+        list-style-type: none;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: 10vh;
+        background-color: red;
+        color: white;
+        z-index: 2;
+        justify-content: space-between;
+        width: 100%;
+        overflow: auto;
+        
+    }
+
+    .mobile-nav a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        display: block;
+        width: 25%;
+        height: 100%;
+        background-color: blue;
+        border: 1px red solid;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 8px;
+    }
+    .mobile-nav a i {
+        font-size: 2rem;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 630px) {
     header {
         height: 50vh;
     }
