@@ -668,6 +668,9 @@ input, textarea {
     .button-container {
         display: none;
     }
+    .btns-top {
+        margin-top: 2.5rem;
+    }
     .btns-top .btn a{
         padding: .5rem;
     }
