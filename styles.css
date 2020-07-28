@@ -415,7 +415,7 @@ background-size: cover;
 form {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    max-width: 500px;
     margin: auto;
     margin-top: 5rem;
     padding-bottom: 5rem;
