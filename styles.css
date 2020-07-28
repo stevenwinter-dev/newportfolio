@@ -614,9 +614,6 @@ input, textarea {
         border-bottom: 2px solid #E43F5A;
         width: 80%;
     }
-    form .btn {
-        
-    }
 
 }
 
@@ -624,5 +621,8 @@ input, textarea {
     .project {
         height: 650px;
         width: 80%;
+    }
+    form {
+        width: 100%;
     }
 }
