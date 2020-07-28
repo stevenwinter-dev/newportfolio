@@ -651,10 +651,10 @@ input, textarea {
     .project-buttons .btn {
         padding: 0;
     }
-    .button-container .btn {
+    .welcome .btn {
         padding: 1rem;
     }
-    .button-container .btn a{
+    .welcome .btn a{
         padding: 1rem;
     }
 
