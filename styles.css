@@ -652,7 +652,7 @@ input, textarea {
         padding: 0;
     }
     .button-container .btn {
-        padding: 0;
+        padding: 1rem 0;
     }
 
 }
