@@ -637,6 +637,10 @@ input, textarea {
     }
     form {
         width: 100%;
+        padding-bottom: 5rem;
+    }
+    form button {
+        margin-bottom: 2.5rem;
     }
     .welcome {
         height: 30%;
