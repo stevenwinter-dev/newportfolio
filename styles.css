@@ -644,6 +644,7 @@ input, textarea {
     .button-container .btn {
         margin-top: 0;
         width: 100%;
+        align-items: center;
     }
 
 }
