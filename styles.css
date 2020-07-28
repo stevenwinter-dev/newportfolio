@@ -641,4 +641,9 @@ input, textarea {
     .welcome {
         height: 30%;
     }
+    .button-container .btn {
+        margin-top: 0;
+        width: 100%;
+    }
+
 }
