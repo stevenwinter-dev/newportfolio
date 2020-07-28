@@ -643,6 +643,8 @@ input, textarea {
     }
     .btn {
         line-height: 0;
+    }
+    .project-buttons .btn {
         padding: 0;
     }
 
