@@ -527,9 +527,13 @@ input, textarea {
     }  
     .button-container {
         display: flex;
-        flex-direction: column;
-        align-self: center;
-
+        margin: auto;
+    }
+    .button-container .btn:first-child {
+        margin-right: .2rem;
+    }
+    .button-container .btn:last-child {
+        margin-left: .2rem;
     }
     .button-container  .btn {
         margin-top: 1rem;
@@ -618,6 +622,15 @@ input, textarea {
 }
 
 @media (max-width: 481px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    .welcome h2 {
+        font-size: 1.5rem;
+    }
+    .welcome p {
+        display: none;
+    }
     .project {
         height: 650px;
         width: 80%;
@@ -626,6 +639,6 @@ input, textarea {
         width: 100%;
     }
     .welcome {
-        display: none;
+        height: 30%;
     }
 }
