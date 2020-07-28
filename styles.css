@@ -679,5 +679,8 @@ input, textarea {
         width: 100%;
         margin: 0;
     }
+    .project p {
+        font-size: .9rem;
+    }
 
 }
