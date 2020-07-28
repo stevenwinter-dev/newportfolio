@@ -176,6 +176,16 @@ section {
     margin: auto;
     
 }
+.btns-top {
+    display: flex;
+}
+
+.btns-top div:first-child{
+    margin-right: .5rem;
+}
+.btns-top div:second-child{
+    margin-right: .5rem;
+}
 
 #projects {
     text-align: center;
@@ -529,6 +539,9 @@ input, textarea {
         display: flex;
         margin: auto;
     }
+    .btns-top {
+        display: flex;
+    }
     .button-container .btn:first-child {
         margin-right: .2rem;
     }
@@ -544,6 +557,7 @@ input, textarea {
         display: flex;
         justify-content: center;
     }
+    
     .welcome .btn a {
         padding: .5rem 2.5rem;
     }
@@ -651,11 +665,16 @@ input, textarea {
     .project-buttons .btn {
         padding: 0;
     }
-    .welcome .btn {
-        padding: 1rem;
+    .button-container {
+        display: none;
     }
-    .welcome .btn a{
-        padding: 1rem;
+    .btns-top .btn a{
+        padding: .5rem;
+    }
+    
+    .btns-top .btn {
+        width: 100%;
+        margin: 0;
     }
 
 }
