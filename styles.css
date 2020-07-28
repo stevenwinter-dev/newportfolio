@@ -651,8 +651,8 @@ input, textarea {
     .project-buttons .btn {
         padding: 0;
     }
-    .button-container .btn {
-        padding: 1rem 0;
+    .button-container .btn a{
+        padding: 1rem;
     }
 
 }
