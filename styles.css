@@ -699,6 +699,9 @@ input, textarea {
         border-bottom: 2px solid #E43F5A;
         width: 80%;
     }
+    .footer-contacts {
+        margin-bottom: 6.3rem;
+    }
 
 }
 
