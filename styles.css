@@ -537,6 +537,9 @@ input, textarea {
         overflow: auto;
         
     }
+    .mobile-nav{
+                
+    }
 
     .mobile-nav a {
         text-decoration: none;
@@ -728,5 +731,4 @@ input, textarea {
     .project p {
         font-size: .9rem;
     }
-
 }
