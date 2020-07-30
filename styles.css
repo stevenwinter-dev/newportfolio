@@ -697,6 +697,7 @@ input, textarea {
     }
     .footer-contacts-container {
         margin-bottom: 5.5rem;
+        padding-bottom: 5.5rem;
     }
 
 }
