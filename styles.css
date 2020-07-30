@@ -699,6 +699,9 @@ input, textarea {
         margin-bottom: 5.5rem;
         padding-bottom: 5.5rem;
     }
+    .footer-icon-container {
+        margin: 1rem;
+    }
 
 }
 
