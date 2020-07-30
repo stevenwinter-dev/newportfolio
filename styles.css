@@ -546,17 +546,12 @@ input, textarea {
         position: fixed;
         left: 0;
         bottom: 0;
-        height: 6.3rem;
-        background-color: red;
         color: white;
         z-index: 2;
         justify-content: space-between;
         width: 100%;
         overflow: auto;
         
-    }
-    .mobile-nav{
-
     }
 
     .mobile-nav a {
@@ -565,7 +560,6 @@ input, textarea {
         text-transform: uppercase;
         display: block;
         width: 25%;
-        height: 100%;
         background-color: #444;
         border-right: 1px black solid;
         display: flex;
@@ -573,6 +567,8 @@ input, textarea {
         align-items: center;
         padding-top: 7px;
         font-size: .6rem;
+        padding-bottom: 2rem;
+        height: 5.5rem;
     }
     .mobile-nav a i {
         font-size: 2rem;
@@ -700,7 +696,7 @@ input, textarea {
         width: 80%;
     }
     .footer-contacts-container {
-        margin-bottom: 6.3rem;
+        margin-bottom: 5.5rem;
     }
 
 }
