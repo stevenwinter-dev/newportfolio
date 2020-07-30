@@ -546,7 +546,7 @@ input, textarea {
         position: fixed;
         left: 0;
         bottom: 0;
-        height: 11vh;
+        height: 6.3rem;
         background-color: red;
         color: white;
         z-index: 2;
@@ -699,7 +699,7 @@ input, textarea {
         border-bottom: 2px solid #E43F5A;
         width: 80%;
     }
-    .footer-contacts {
+    .footer-contacts-container {
         margin-bottom: 6.3rem;
     }
 
