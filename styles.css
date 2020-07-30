@@ -449,6 +449,24 @@ input, textarea {
     display: none;
 }
 
+.footer-contacts-container {
+    background: rgb(2,0,36);
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: auto;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.footer-icon-container {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (max-width: 1120px) {
     .icon-container {
         margin-left: 2%;
@@ -538,7 +556,7 @@ input, textarea {
         
     }
     .mobile-nav{
-                
+
     }
 
     .mobile-nav a {
