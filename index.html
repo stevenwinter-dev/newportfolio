@@ -6,6 +6,9 @@
     <title>Steven Winter | Web Developer</title>
     <link rel="icon" type="image/ico" href="favicon.ico"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css' />
     <link rel="stylesheet" href="styles.css">
@@ -20,7 +23,6 @@
                         <a href='#'>
                             <img src='logo-white.png'>
                         </a>
-                        <h1>Steven Winter</h1>
                     </div>
                     <nav>
                         <ul class='nav-ul'>
@@ -38,8 +40,8 @@
                     </nav>
                 </div>
                 <div class='welcome'>
-                    <h2 data-aos="fade-right" data-aos-duration='1000'>Hey, thanks for dropping by!</h2>
-                    <p data-aos="fade-left" data-aos-duration='1000'>Feel free to check out my recent work and get in touch.</p>
+                    <h1 data-aos="fade-right" data-aos-duration='1000'>Steven Winter</h1>
+                    <h3 data-aos="fade-left" data-aos-duration='1000'>Full Stack Developer</h3>
                         <!-- <div data-aos="fade-in" data-aos-duration='2000' class='button-container'>
                             <button class='btn'><a href='#projects'>Projects</a></button>
                             <button class='btn'><a href='#contact'>Contact</a></button>
@@ -60,6 +62,44 @@
                 <h2 data-aos="fade-down" data-aos-duration='800'>Recent Work</h2>
                 <div class='project-container'>
                     <div class="project" data-aos="zoom-in" data-aos-duration='800'>
+                        <h3>Coffee Bean</h3>
+                        <img src='/img/coffeebean.png'>
+                            <ul class="project-tech-ul">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JAVASCRIPT</li>
+                                <li>REACT</li>
+                                <li>NODE</li>
+                                <li>EXPRESS</li>
+                                <li>MONGODB</li>
+                                <li>MONGOOSE</li>
+                            </ul>
+                        <p class='project-description'>Coffee Bean is a full stack eCommerce application. The store owner can list, edit and delete products for sale. Customers can view available items, add desired products to their cart, and make a secure payment at checkout via the Stripe API. User authentication provides a safe platform for the seller and customers.</p> 
+                        <div class="project-buttons">
+                            <button class='btn'><a href='https://coffeebean3.herokuapp.com/' target="_blank">LIVE</a></button>
+                            <button class='btn'><a href='https://github.com/Groundsandbeans/Coffee_bean' target="_blank">CODE</a></button>
+                        </div>
+                    </div>
+                    <div class="project" data-aos="zoom-in" data-aos-duration='800'>
+                        <h3>Real Estate App</h3>
+                        <img src='/img/realestate.png'>
+                            <ul class="project-tech-ul">
+                                <li>HTML</li>
+                                <li>EJS</li>
+                                <li>CSS</li>
+                                <li>JAVASCRIPT</li>
+                                <li>NODE</li>
+                                <li>EXPRESS</li>
+                                <li>MONGODB</li>
+                                <li>MONGOOSE</li>
+                            </ul>
+                        <p class='project-description'>This app is a place for realtors to list properties and buyers to shop for their new home. User authentication provides a secure dashboard for listing properties or adding properties to your favorites list. The Google Maps API is leveraged to provide users accurate locations for the properties. Nodemailer emails updates to users about properties they have viewed.  </p>    
+                        <div class="project-buttons">
+                            <button class='btn'><a href='https://blooming-fortress-96429.herokuapp.com/property' target="_blank">LIVE</a></button>
+                            <button class='btn'><a href='https://github.com/stevenwinter-dev/realestateapp' target="_blank">CODE</a></button>
+                        </div>
+                    </div>
+                    <div class="project" data-aos="zoom-in" data-aos-duration='800'>
                         <h3>G5 Gaming</h3>
                         <img src='/img/g5gaming.png'>
                             <ul class="project-tech-ul">
@@ -71,7 +111,7 @@
                                 <li>EXPRESS</li>
                                 <li>MONGODB</li>
                             </ul>
-                        <p class='project-description'>This fullstack eCommerce application allows a user to register an account and purchase items. Admin functionality allows the addition or deletion of items and monitoring of all orders. User, item, and order information is stored with MongoDB Atlas. Images are hosted in an Amazon S3 bucket.</p>
+                        <p class='project-description'>This full stack eCommerce application allows a user to register an account and purchase items. Admin functionality allows the addition or deletion of items and monitoring of all orders. User, item, and order information is stored with MongoDB Atlas. Images are hosted in an Amazon S3 bucket.</p>
                         <div class="project-buttons">
                             <button class='btn'><a href='https://g5gaming.herokuapp.com/' target="_blank">LIVE</a></button>
                             <button class='btn'><a href='https://github.com/stevenwinter-dev/g5gaming' target="_blank">CODE</a></button>
@@ -99,10 +139,24 @@
                             <li>CSS</li>
                             <li>REACT</li>
                         </ul>
-                        <p class='project-description'>This application accepts user input and displays a result based on that input. </p><p class='project-description2'>In the early days of the now defunct AAF, many fans were wondering which team to support. This app solves that problem with a fast, light-weight solution.</p>
+                        <p class='project-description'>This application accepts user input and displays a result based on that input. In the early days of the now defunct AAF, many fans were wondering which team to support. This app solves that problem with a fast, light-weight solution.</p>
                         <div class="project-buttons">
                             <button class='btn'><a href='https://findyouraafteam.com/' target="_blank">LIVE</a></button>
                             <button class='btn'><a href='https://github.com/stevenwinter-dev/which-AAF' target="_blank">CODE</a></button>
+                        </div>
+                    </div>
+                    <div class="project" data-aos="zoom-in" data-aos-duration='800'>
+                        <h3>Hearthstone Simon</h3>
+                        <img src='/img/hearthstonesimonportfolio.png'>
+                            <ul class="project-tech-ul">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JAVASCRIPT</li>
+                            </ul>
+                        <p class='project-description'>A version of the popular electronic game Simon, this JavaScript app accepts user input and responds accordingly. Upon successfully completing a level, the user is presented with three random cards from the Hearthstone API, one of which they may add to their deck.</p>
+                        <div class="project-buttons">
+                            <button class='btn'><a href='https://stevenwinter-dev.github.io/simon/' target="_blank">LIVE</a></button>
+                            <button class='btn'><a href='https://github.com/stevenwinter-dev/simon' target="_blank">CODE</a></button>
                         </div>
                     </div>
                     <div class="project" data-aos="zoom-in" data-aos-duration='800'>
@@ -125,9 +179,10 @@
             <section class='about'>
                 <div id='about' class='about-container'>
                     <h2 data-aos="fade-down" data-aos-duration='800'>About me</h2>
-                    <p data-aos="fade-in" data-aos-duration='1000'>I've been a web developer for 3 years, currently residing in Houston, Texas. I really enjoy building robust, elegant web applications with the MERN stack.</p>
-                    <p data-aos="fade-in" data-aos-duration='1000'>I have a passion for learning new skills and am eager to master new technologies.</p>
-                    <p data-aos="fade-in" data-aos-duration='1000'>Currently, I am open to joining a team of talented developers. I am confident I will be an asset from day one.</p>
+                    <img data-aos="fade-in" data-aos-duration='1000' class="steven-image" src="img/steven1.jpg" alt="me!">
+                    <p data-aos="fade-in" data-aos-duration='1000'>Hello! I'm a Boston-based full stack web developer who enjoys building robust, elegant web applications with the MERN stack.</p>
+                    <p data-aos="fade-in" data-aos-duration='1000'>As a former college professor, I have a passion for learning new skills. This mindset has been invaluable to me as a software engineer.</p>
+                    <p data-aos="fade-in" data-aos-duration='1000'>Currently, I am open to joining a team of talented developers. I'd love the opportunity to further discuss how I can be an asset to your team!</p>
                 </div>
             </section>
             <section class='technologies'>

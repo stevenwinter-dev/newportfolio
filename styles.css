@@ -19,6 +19,11 @@ body {
     color: #444;
 }
 
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+}
+
 header {
     height: 95vh;
 }
@@ -37,11 +42,18 @@ header img {
     margin-right: 1rem;
 }
 
-header h1 { 
+.welcome h1 { 
     color: white;
-    font-size: 2.2rem;
+    font-size: 3.2rem;
     text-transform: uppercase;
     letter-spacing: .33rem;
+}
+
+.welcome h3 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .33rem;
+    
 }
 
 .icon-container {
@@ -258,11 +270,11 @@ section {
 
 .project-tech-ul li {
     margin: 0 1rem 0 1rem;
+    list-style-type: none;
 }
 
 .project-description, .project-description2{
     margin: 1rem;
-    margin-top: 2rem;
     line-height: 1.5rem;
     font-size: 1.2rem;
 }
@@ -323,6 +335,15 @@ section {
 
 .about-container {
     text-align: center;  
+}
+
+.steven-image {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 33%;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
 }
 
 .technologies {
@@ -518,8 +539,7 @@ input, textarea {
     header img {
         width: 3rem;
     }
-    header h1 {
-        font-size: 2rem;
+    .welcome h1 {
         letter-spacing: .2rem;
     }
     .nav-ul li a {
@@ -595,6 +615,10 @@ input, textarea {
         align-items: center;
     }
     .welcome h2 {
+        margin-bottom: 1rem;
+    } 
+    .welcome h1 {
+        font-size: 2.5rem;
         margin-bottom: 1rem;
     } 
     .welcome p {
@@ -710,7 +734,7 @@ input, textarea {
 }
 
 @media (max-width: 481px) {
-    header h1 {
+    .welcome h1 {
         font-size: 1.5rem;
     }
     .welcome h2 {
