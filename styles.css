@@ -380,6 +380,7 @@ section {
 .technologies img {
     width: 10rem;
     margin-right: 2rem;
+    filter: grayscale(100%);
 }
 
 .technologies img:last-of-type {
