@@ -95,6 +95,10 @@ header img {
     border-bottom: 1px solid #E43F5A;
 }
 
+.nav-ul i {
+    font-size: 1.2rem;
+}
+
 nav ul:hover a {
     opacity: .50;
     transition: .3s;
@@ -476,7 +480,7 @@ input, textarea {
 
 .footer-contacts {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 500px;
     margin: auto;
     font-size: 2rem;
