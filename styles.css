@@ -232,7 +232,7 @@ section {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    height: 650px;
+    height: 685px;
     width: 40%;
     border-radius: 20px;
     margin-bottom: 5rem;
@@ -534,7 +534,7 @@ input, textarea {
         margin-left: 0rem;
     }
     .project {
-        height: 650px;
+        height: 685px;
         width: 60%;
         margin-bottom: 5rem;
     }
@@ -663,7 +663,7 @@ input, textarea {
         margin-top: 2.5rem;
     }
     .project {
-        height: 650px;
+        height: 685px;
         margin-bottom: 2.5rem;
     }
     .project p {
@@ -738,6 +738,12 @@ input, textarea {
 
 }
 
+@media (max-width: 559px) {
+    .project {
+        height: 685px;
+    }
+}
+
 @media (max-width: 481px) {
     .welcome h1 {
         font-size: 1.5rem;
@@ -749,7 +755,6 @@ input, textarea {
         display: none;
     }
     .project {
-        height: 650px;
         width: 80%;
     }
     form {
