@@ -242,6 +242,11 @@ section {
     position: relative;
 }
 
+.project img {
+    width: 396px;
+    height: 195.5px;
+}
+
 .project:nth-child(odd) {
     margin-right: 2rem;   
 }
