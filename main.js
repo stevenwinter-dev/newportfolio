@@ -59,39 +59,3 @@ window.addEventListener("scroll", () => {
   }
   document.querySelector(".mobile-nav").style.opacity = opacity;
 });
-
-document.addEventListener('DOMContentLoaded', () => {
-    // Select all buttons with the class 'btn'
-    const buttons = document.querySelectorAll('.btn');
-
-    // Loop through each button and add a click event listener
-    buttons.forEach(button => {
-        button.addEventListener('click', (event) => {
-            // Log the button's ID or perform any action
-            console.log(`Button clicked: ${button.id}`);
-
-            // Example: Send event to Google Analytics
-            gtag('event', 'click', {
-                'event_category': 'Button',
-                'event_label': button.id
-            });
-        });
-    });
-
-     // Select the Resume, GitHub, and LinkedIn links by their IDs
-    const links = ['link-resume', 'link-github', 'link-linkedin'];
-    links.forEach(linkId => {
-        const link = document.getElementById(linkId);
-        if (link) {
-            link.addEventListener('click', () => {
-                console.log(`Link clicked: ${linkId}`);
-
-                // Send event to Google Analytics
-                gtag('event', 'click', {
-                    'event_category': 'Link',
-                    'event_label': linkId
-                });
-            });
-        }
-    });
-});
